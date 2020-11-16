@@ -1,0 +1,95 @@
+/* This is a comment */
+*, *: :before, *::after {
+  box-sizing: inherit;
+}
+/* this is an id, best to use classes whenever possible rather than ids*/
+#the-one{
+    color: greenyellow
+}
+html {
+  box-sizing: boarder-box;
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5rem;
+}
+
+body {
+    background-color: lightgray;
+    /* centering on webpage*/
+    max-width: 1000px;
+    margin: 0 auto
+}
+
+h1 {
+  color: green;
+  background-color: white;
+  font-size: 3rem;
+  line-height: 3rem;
+  margin-left: 0.5rem;
+}
+
+h1 {
+  color: #000000;
+  color: rgb(255, 0, 0);
+  color: rgba(0, 0, 255, 0.3);
+  background-color: #ffffff;
+}
+
+p{ 
+  font-family: "courier New", courier, monospace;
+font-weight: normal
+letter-soacing: -0.2rem;
+/*letter spacing: -0.2rem;*/
+word-spacing: 0.3rem;
+margin-left: 0.5rem;
+}
+
+img{ 
+    width: 100%;
+    height: auto;
+}
+
+a { 
+    text-decoration: none;
+    background-color: lightgrey
+}
+a:visted {
+    color: purple;
+}
+
+a:hover {
+  color: #610422;
+  background-color: coral;
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+}
+.new-color {
+  color: blue;
+  background-color: white;
+} 
+
+.standard-box {
+  background-color: pink;
+  width: 300px;
+  padding: 30px;
+  border: 20px solid greenyellow;
+  margin: 30px;
+  box-sizing: content-box;
+}
+
+.boarder-box {
+  background-color: pink;
+  width: 300px;
+  padding: 30px;
+  border-top: 20px solid greenyellow;
+  border-top: 20px solid 
+  border-left:40px solid 
+  
+  padding-right:10px 20px 30px 40px;
+
+  margin: 30px;
+  box-sizing: boarder-box;
+}
