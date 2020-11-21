@@ -3,7 +3,7 @@ html {
   font-family: 100%;
   line-height: 1.5rem;
   box-sizing: border-box;
-  font-family: arial, helvetica, sans-serif;
+  font-family: cursive;
   height: 100%;
 }
 
@@ -103,7 +103,7 @@ video {
 
 .hero-nav .logo a,
 .hero-nav .nav-menu a {
-  color: white;
+  color: darkslategrey;
 }
 
 .hero-nav .nav-menu a:hover {
@@ -115,6 +115,11 @@ video {
 }
 
 /*Homepage Hero*/
+
+.hero {
+  font-family: fantasy;
+  font-size: 2rem;
+}
 
 .hero-box {
   display: grid;
@@ -178,9 +183,9 @@ video {
 .hero-button {
   display: inline-block;
   padding: 0.75rem 2rem;
-  background: none;
-  color: #fff;
-  font-size: 1.2rem;
+  background: pink;
+  color: darkslategrey;
+  font-size: 3rem;
   font-weight: bold;
   border: 1px soilid #fff;
   border-radius: 5px;
@@ -226,6 +231,33 @@ video {
 .about-social a {
   color: black;
   padding: 1rem;
+}
+/*begin grid gallery styles*/
+.gallery-page {
+  padding: 2rem 1rem 10rem 1rem;
+}
+
+.portfolio-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 0.5rem;
+  grid-auto-rows: 300px;
+}
+
+.gallery-item {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.gallery-img {
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s ease-in-out;
+}
+
+.gallery-img:hover {
+  transform: scale 1.5;
 }
 
 /*Footer Nav Extra Styles */
